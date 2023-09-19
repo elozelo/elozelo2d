@@ -6,6 +6,25 @@
 int main()
 {
     std::cout << "Hello World!\n";
+    std::cout << -59.5 << 'x' << "asdfasdfhasdfasdfhvasdfjh" << true << false << elo zelo"\n";
+
+    int number;
+    number = 5;
+    
+    int secondNumber;
+    secondNumber = number + 2;
+    x = 3 << 1; //3 / (2^1) = 6 011 110
+
+    /*
+    Piorytety operatorów:
+
+    1.(,)
+    2.*,/,%
+    3.+,-
+    4.=
+
+    */
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
