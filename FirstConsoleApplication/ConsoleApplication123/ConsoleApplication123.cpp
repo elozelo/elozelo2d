@@ -11,6 +11,7 @@ void task1(){
     cin >> b;
     cout << "Twoja liczba to: " << a / b << endl;
 }
+
 int main()
 {
     setlocale(LC_CTYPE, "polish");
