@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02InsturkcjeDecyzyjne", "02
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication123", "ConsoleApplication123\ConsoleApplication123.vcxproj", "{A8CDB481-75CC-4779-BB5E-80040C60BC18}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03petla", "03petla", "{64AE398A-2098-462F-A06B-B90F3E4D7BFB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "petla", "petla\petla.vcxproj", "{CCE53236-86E8-46E2-8AE3-CCE67E69763D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -35,6 +39,14 @@ Global
 		{A8CDB481-75CC-4779-BB5E-80040C60BC18}.Release|x64.Build.0 = Release|x64
 		{A8CDB481-75CC-4779-BB5E-80040C60BC18}.Release|x86.ActiveCfg = Release|Win32
 		{A8CDB481-75CC-4779-BB5E-80040C60BC18}.Release|x86.Build.0 = Release|Win32
+		{CCE53236-86E8-46E2-8AE3-CCE67E69763D}.Debug|x64.ActiveCfg = Debug|x64
+		{CCE53236-86E8-46E2-8AE3-CCE67E69763D}.Debug|x64.Build.0 = Debug|x64
+		{CCE53236-86E8-46E2-8AE3-CCE67E69763D}.Debug|x86.ActiveCfg = Debug|Win32
+		{CCE53236-86E8-46E2-8AE3-CCE67E69763D}.Debug|x86.Build.0 = Debug|Win32
+		{CCE53236-86E8-46E2-8AE3-CCE67E69763D}.Release|x64.ActiveCfg = Release|x64
+		{CCE53236-86E8-46E2-8AE3-CCE67E69763D}.Release|x64.Build.0 = Release|x64
+		{CCE53236-86E8-46E2-8AE3-CCE67E69763D}.Release|x86.ActiveCfg = Release|Win32
+		{CCE53236-86E8-46E2-8AE3-CCE67E69763D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +54,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E1E8C230-7355-49CA-A7E7-CC0C85D90F48} = {0287BFB5-B90E-4F58-983A-1E8E6BCD3E94}
 		{A8CDB481-75CC-4779-BB5E-80040C60BC18} = {C66E999B-95A1-4782-A679-A17176CE77E2}
+		{CCE53236-86E8-46E2-8AE3-CCE67E69763D} = {64AE398A-2098-462F-A06B-B90F3E4D7BFB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0344FB07-53E7-4724-A734-619C30166C92}
