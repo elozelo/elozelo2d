@@ -29,23 +29,20 @@ int main()
     cin >> b;
     cout << a + b;
 }
-<<<<<<< HEAD:Programowanie/FirstConsoleApplication/FirstConsoleApplication/FirstConsoleApplication.cpp
-=======
 //Program obliczający pole prostokąta:
 void task2()
 {
+    double a;
+    double b;
 
-    double a;
-    double b;
+        std::cout << "Podaj pierwszy bok: ";
+        std::cin >> a;
+        std::cout << "Podaj drugi bok: ";
+        std::cin >> b;
 
-    std::cout << "Podaj pierwszy bok: ";
-    std::cin >> a;
-    std::cout << "Podaj drugi bok: ";
-    std::cin >> b;
+    double poleprostokata = (a * b);
 
-    double poleprostokata = (a * b);
-
-    std::cout << "Pole prostokąta wynosi: " << poleprostokata << "\n";
+    std::cout << "Pole prostokąta wynosi: " << poleprostokata << "\n";
 
 }
 
@@ -53,20 +50,20 @@ void task2()
 void task3()
 {
 
-    double r;
-    double H;
-    double V;
+    double r;
+    double H;
+    double V;
 
-    float pi = 3.141;
+        float pi = 3.141;
 
-    std::cout << "Podaj promień: \n";
-    std::cin >> r;
-    std::cout << "Podaj wysokość: \n";
-    std::cin >> H;
+         std::cout << "Podaj promień: \n";
+         std::cin >> r;
+         std::cout << "Podaj wysokość: \n";
+         std::cin >> H;
 
-    V = (pi * r * r) * (H / 3);
+        V = (pi * r * r) * (H / 3);
 
-    std::cout << "Objetosc wynosi: " << V;
+        std::cout << "Objetosc wynosi: " << V;
 
 }
 
@@ -74,17 +71,16 @@ void task3()
 void task4()
 {
 
-    double r;
+    double r;
     double polekola;
 
-    float pi = 3.141;
+        float pi = 3.141;
 
-    std::cout << "Podaj promień koła: \n";
-    std::cin >> r;
-   
-    polekola = (pi * r * r);
+        std::cout << "Podaj promień koła: \n";
+        std::cin >> r;
+        polekola = (pi * r * r);
 
-    std::cout << "Pole koła wynosi: "<< polekola <<"\n";
+        std::cout << "Pole kola wynosi: "<< polekola <<"\n";
 
 }
 
@@ -92,16 +88,17 @@ void task4()
 void task5()
 {
 
-    double a;
-    double b;
-    double liczbakoncowa;
+    double a;
+    double b;
+    double liczbakoncowa;
 
-    std::cout << "Podaj a: ";
-    std::cin >> a;
-    std::cout << "Podaj b: ";
-    std::cin >> b;
+        std::cout << "Podaj a: ";
+        std::cin >> a;
+        std::cout << "Podaj b: ";
+        std::cin >> b;
 
-    liczbakoncowa = (a * a) + (b * b);
+        liczbakoncowa = (a * a) + (b * b);
+        cout << liczbakoncowa;
 
 }
 
@@ -109,37 +106,36 @@ void task5()
 void task6()
 {
 
-    double a;
-    double h;  
-    double poletrojkata ;
+    double a;
+    double h;
+    double poletrojkata;
 
-   
-    std::cout << "Podaj długość boku trójkąta: ";
-    std::cin >> a;
-    std::cout << "Podaj wysokość trójkąta: ";
-    std::cin >> h;
-   
-    poletrojkata = (a * h) /2;
 
-    std::cout << "Pole trojkąta wynosi: " <<  poletrojkata   << "\a";
+        std::cout << "Podaj długość boku trójkąta: ";
+        std::cin >> a;
+        std::cout << "Podaj wysokość trójkąta: ";
+        std::cin >> h;
 
+        poletrojkata = (a * h) /2;
+
+            std::cout << "Pole trojkąta wynosi: " << poletrojkata<< "\a";
 }
 
 //Program obliczający objętość kuli o promieniu r:
 void task7()
 {
 
-    double r; 
-    double objkuli;
+    double r; 
+    double objkuli;
 
-    float pi = 3.141;
+    float pi = 3.141;
 
-    std::cout << "Podaj r kuli: ";
-    std::cin >> r;
+        std::cout << "Podaj r kuli: ";
+        std::cin >> r;
 
-    objkuli = (4 / 3) * (pi * r);
+        objkuli = (4 / 3) * (pi * r);
 
-    std::cout << "Objętość kuli wynosi: " << objkuli << "\n";
+        std::cout << "Objetosc kuli wynosi: " << objkuli << "\n";
 
 }
 
@@ -147,21 +143,21 @@ void task7()
 void task8()
 {
 
-    double a;
-    double b;
-    double h;
-    double ptrapezu;
+    double a;
+    double b;
+    double h;
+   double ptrapezu;
 
-    std::cout << "Podaj a: ";
-    std::cin >> a;
-    std::cout << "Podaj b: ";
-    std::cin >> b;
-    std::cout << "Podaj wysokość: ";
-    std::cin >> h;
+        std::cout << "Podaj a: ";
+        std::cin >> a;
+        std::cout << "Podaj b: ";
+        std::cin >> b;
+        std::cout << "Podaj wysokość: ";
+        std::cin >> h;
 
-    ptrapezu = (a + b) * h/2;
+        ptrapezu = (a + b) * h/2;
 
-    std::cout << "Pole trapezu wynosi: " << ptrapezu << "\n";
+            std::cout << "Pole trapezu wynosi: " << ptrapezu << "\n";
 
 }
 
@@ -169,24 +165,29 @@ void task8()
 void task9()
 {
 
-    double liczba1, liczba2, liczba3, w1, w2, w3;
-   
-    std::cout << "Podaj pierwszą liczbe: ";
-    std::cin >> liczba1;
-    std::cout << "Podaj wage pierwszej liczby: ";
-    std::cin >> w1;
-    std::cout << "Podaj drugą liczbe: ";
-    std::cin >> liczba2;
-    std::cout << "Podaj wage drugiej liczby: ";
-    std::cin >> w2;
-    std::cout << "Podaj trzecią liczbe: ";
-    std::cin >> liczba3;
-    std::cout << "Podaj wage trzeciej liczby: ";
-    std::cin >> w3;
-   
-    double srednia = (liczba1 * w1 + liczba2 * w2 + liczba3 * w3) / (w1 + w2 + w3);
+    double liczba1, liczba2, liczba3, w1, w2, w3;
 
-    std::cout << "Średnia ważona liczb wynosi: " << srednia <<"\n";
+        std::cout << "Podaj pierwszą liczbe: ";
+        std::cin >> liczba1;
+
+        std::cout << "Podaj wage pierwszej liczby: ";
+        std::cin >> w1;
+
+        std::cout << "Podaj drugą liczbe: ";
+        std::cin >> liczba2;
+
+        std::cout << "Podaj wage drugiej liczby: ";
+        std::cin >> w2;
+
+        std::cout << "Podaj trzecią liczbe: ";
+        std::cin >> liczba3;
+
+        std::cout << "Podaj wage trzeciej liczby: ";
+        std::cin >> w3;
+
+        double srednia = (liczba1 * w1 + liczba2 * w2 + liczba3 * w3) / (w1 + w2 + w3);
+
+        std::cout << "Średnia ważona liczb wynosi: " << srednia <<"\n";
 
 }
 
@@ -200,7 +201,6 @@ void task9()
 //   4. Use the Error List window to view errors
 //   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file 
->>>>>>> a9cbb37e1cbb96762f3e7ccb1a3a8c28283b24c7:FirstConsoleApplication/FirstConsoleApplication/FirstConsoleApplication.cpp
 void test() {
 cout << "Hello World!\n";
 cout << -59.5 << 'x' << "asdfasdfhasdfasdfhvasdfjh" << true << false << "elozelo\n";
